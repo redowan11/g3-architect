@@ -61,7 +61,7 @@ nav li a {
 /* banner styles */
 
 .banner-content {
-    width: 862px;
+    width: 800px;
     text-align: center;
     margin: 0 auto;
 }
@@ -79,4 +79,34 @@ nav li a {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
+}
+.banner img{
+    width: 100%;
+}
+/* responsive media queries */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    .banner-content{
+        height: auto;
+        width: auto;
+    }
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* medium devices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+        
 }
